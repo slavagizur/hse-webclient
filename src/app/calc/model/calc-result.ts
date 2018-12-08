@@ -1,3 +1,8 @@
+/**
+ * Результат выполнения расчета.
+ *
+ * @author vbotalov
+ */
 export class CalcResult {
 
   constructor(public result: number,

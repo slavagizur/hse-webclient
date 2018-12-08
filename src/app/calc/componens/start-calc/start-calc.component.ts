@@ -2,6 +2,11 @@ import {Component, OnInit} from '@angular/core';
 import {CalcRequest} from '../../model/calc-request';
 import {CalcService} from '../../services/calc.service';
 
+/**
+ * Компонент запуска расчетов.
+ *
+ * @author vbotalov
+ */
 @Component({
   selector: 'app-start-calc',
   templateUrl: './start-calc.component.html',
@@ -18,7 +23,7 @@ export class StartCalcComponent implements OnInit {
   }
 
   startCalc(): void {
-    this.calcService.startCalc(this.request)
+    this.calcService.startCalc(this.request);
   }
 
 }

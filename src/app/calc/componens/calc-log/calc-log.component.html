@@ -1,8 +1,8 @@
 <div>
-  <div *ngFor="let result of resultLogs()">
-    <span>{{result.executor}}&nbsp;</span>
-    <span *ngIf="result.success">вычислил:&nbsp;{{result.result}}</span>
-    <span *ngIf="!result.success">не смог вычислить</span>
-    <span>&nbsp;Исходная операция: {{result.sourceRequest}}</span>
+  <div *ngFor="let result of resultLogs()" class="resultRow">
+    <span class="executor">{{result.executor}}&nbsp;</span>
+    <span *ngIf="result.success" class="successResult">вычислил:&nbsp;{{result.result}}</span>
+    <span *ngIf="!result.success" class="errorResult">не смог вычислить потому что {{result.message}}</span><br>
+    <span class="sourceRequest">Исходная операция: {{result.sourceRequest}}</span>
   </div>
 </div>

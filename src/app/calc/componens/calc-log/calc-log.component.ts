@@ -2,6 +2,11 @@ import {Component, OnInit} from '@angular/core';
 import {CalcService} from '../../services/calc.service';
 import {CalcResult} from '../../model/calc-result';
 
+/**
+ * Компонент вывода лога расчетов.
+ *
+ * @author vbotalov
+ */
 @Component({
   selector: 'app-calc-log',
   templateUrl: './calc-log.component.html',

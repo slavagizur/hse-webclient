@@ -1,9 +1,12 @@
 import {Injectable} from '@angular/core';
 import {CalcResult} from '../model/calc-result';
-import {Observable} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import {CalcRequest} from '../model/calc-request';
 
+/**
+ * Сервис расчетов (взаимодействие с клиентом).
+ * @author vbotalov
+ */
 @Injectable({
   providedIn: 'root'
 })

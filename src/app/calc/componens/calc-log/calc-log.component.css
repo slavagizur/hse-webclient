@@ -1,0 +1,19 @@
+.resultRow {
+  padding: 8px 0;
+}
+
+.executor {
+   font-weight: bold;
+}
+
+.successResult {
+  color: mediumseagreen;
+}
+
+.errorResult {
+  color: orangered;
+}
+
+.sourceRequest {
+  color: darkslategray;
+}

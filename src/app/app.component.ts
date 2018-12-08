@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+/**
+ * Корневой компонент приложения.
+ * @author vbotalov
+ */
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
