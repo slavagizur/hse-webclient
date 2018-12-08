@@ -1,0 +1,28 @@
+.calcRunForm {
+  width: 50%;
+}
+
+.calcRunForm .inputField {
+  padding: 4px 0;
+  min-height: 2.5em;
+}
+
+.calcRunForm label {
+  float: left;
+  margin-bottom: 4px;
+}
+
+.calcRunForm input, .calcRunForm select {
+  float: right;
+  width: 60%;
+  height: 2.0em;
+}
+
+.calcRunForm .calcFormSubmit {
+  text-align: center;
+}
+
+.calcRunForm input[type="submit"] {
+  float: none;
+  height: 2.3em;
+}

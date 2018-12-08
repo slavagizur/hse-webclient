@@ -1,0 +1,27 @@
+<div class="calcRunForm">
+  <form>
+    <div class="inputField">
+      <label for="first">Первый аргумент:</label>
+      <input [(ngModel)]="request.first" name="first" id="first">
+    </div>
+
+    <div class="inputField">
+      <label for="oper">Операция:</label>
+      <select name="oper" id="oper" [(ngModel)]="request.operation">
+        <option value="+">Плюс</option>
+        <option value="-">Минус</option>
+        <option value="*">Умножить</option>
+        <option value="/">Поделить</option>
+      </select>
+    </div>
+
+    <div class="inputField">
+      <label for="second">Второй аргумент:</label>
+      <input name="second" id="second" [(ngModel)]="request.second">
+    </div>
+
+    <div class="calcFormSubmit">
+      <input type="submit" value="Рассчитать" (click)="startCalc()">
+    </div>
+  </form>
+</div>
