@@ -23,5 +23,5 @@ docker image build -t hse-webclient .
 Для запуска из Docker контейнера выполните:
 
 ```
-docker run --name hse-webclient -p 280:80 hse-webclient:latest
+docker run --name hse-webclient -p 80:80 -d hse-webclient:latest
 ```
